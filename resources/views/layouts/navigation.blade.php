@@ -11,15 +11,23 @@
                 </div>
 
                 <!-- Navigation Links -->
-                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                {{-- <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex text-right">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
-                </div>
+                </div> --}}
+            </div>
+            <div class="text-right">
+                <x-nav-link :href="route('login')">
+                    {{ __('Iniciar Sesion') }}
+                </x-nav-link>
+                <button class="px-4 py-2 mt-4 font-bold text-white bg-yellow-500 rounded hover:bg-yellow-700">
+                    Suscribirse
+                </button>
             </div>
 
             <!-- Settings Dropdown -->
-            <div class="hidden sm:flex sm:items-center sm:ml-6">
+            {{-- <div class="hidden sm:flex sm:items-center sm:ml-6">
                 <x-dropdown align="right" width="48">
                     <x-slot name="trigger">
                         <button
@@ -56,7 +64,7 @@
                         </form>
                     </x-slot>
                 </x-dropdown>
-            </div>
+            </div> --}}
 
             <!-- Hamburger -->
             <div class="-mr-2 flex items-center sm:hidden">
