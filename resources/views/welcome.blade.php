@@ -10,6 +10,9 @@
 
                 <div class="text-white text-center">
                     <h1 class="text-4xl font-bold">Movie Match</h1>
+                    <button class="px-4 py-2 font-bold text-white bg-yellow-500 rounded hover:bg-yellow-700 mt-6">
+                        Suscribirse
+                    </button>
                 </div>
             </div>
         </div>
